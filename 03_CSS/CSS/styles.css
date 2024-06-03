@@ -1,0 +1,26 @@
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: brown;
+}
+
+p {
+    color: gray;
+}
+
+/* Seletor de classe é mais específico do que o de html */
+.paragraph {
+    background-color: #000000;
+    color: aqua;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+/*    Id > class > seletor de tag    */
