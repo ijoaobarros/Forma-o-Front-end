@@ -24,3 +24,28 @@ p {
     padding: 10px;
 }
 /*    Id > class > seletor de tag    */
+
+.bg{
+    background-color: rgba(0, 0, 0, .5);
+    color: yellow;
+}
+
+.bg-opacity{
+    background-color: #000000;
+    opacity: .5;
+}
+
+.img-fundo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url("../IMGS/nebulosa.png");
+}
+
+.posicao-img{
+    height: 500px;
+    width: 500px;
+    background-image: url("../../02_HTML/img/bridge.jpg");
+    background-position: center;
+    background-size: cover;
+}
