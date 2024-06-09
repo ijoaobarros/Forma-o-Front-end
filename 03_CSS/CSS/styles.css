@@ -6,10 +6,6 @@ h3 {
     color: brown;
 }
 
-p {
-    color: gray;
-}
-
 /* Seletor de classe é mais específico do que o de html */
 .paragraph {
     background-color: #000000;
@@ -48,4 +44,38 @@ p {
     background-image: url("../../02_HTML/img/bridge.jpg");
     background-position: center;
     background-size: cover;
+}
+
+.without-borderbox{
+    font-size: 30pt;
+    background-color: #444;
+    color: white;
+    width: 400px;
+    padding: 50px;
+}
+
+.borderbox{
+    font-size: 30pt;
+    background-color: #666;
+    color: white;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.remove-decoration{
+    text-decoration: none;
+    color: red;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+.letter-spacing{
+    letter-spacing: 5px;
 }
